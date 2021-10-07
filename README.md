@@ -31,4 +31,3 @@ The ETL job processes the `song files` then the `log files`. The `song files` ar
 
 + `etl.py` - The ETL to reads data from **S3**, processes that data using **Spark**, and writes them to a new **S3**
 + `dl.cfg` - Configuration file that contains info about AWS credentials
-+ `test.ipynb` - test file for `etl.py`
